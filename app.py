@@ -138,6 +138,7 @@ def main():
     
     # Sidebar
     with st.sidebar:
+        st.markdown("Created by [Ahmed Yusri](https://www.linkedin.com/in/ahmed-yusri)")
         st.header("⚙️ Settings")
         
         confidence_threshold = st.slider(
@@ -373,3 +374,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
