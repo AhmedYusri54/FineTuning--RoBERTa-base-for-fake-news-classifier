@@ -171,6 +171,7 @@ def main():
         st.header("📝 About")
         st.markdown("""
         This system was trained to identify:
+        - Support Subjects like Politics, Health, Government, and Technology
         - Misleading headlines
         - Fabricated content
         - Biased reporting
@@ -374,4 +375,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
