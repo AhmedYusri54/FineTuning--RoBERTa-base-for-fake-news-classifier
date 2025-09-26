@@ -101,7 +101,6 @@ def clean_text(text, stop_words, _lemmatizer):
 def load_model():
     repo_id = "AhmedYusri/RoBERTa-base_fake_news_classifier"
     hf_token = os.getenv("HF_TOKEN")
-    st.login(token=hf_token)
     model = AutoModelForSequenceClassification.from_pretrained(
         "AhmedYusri/RoBERTa-base_fake_news_classifier",
         use_auth_token=hf_token
